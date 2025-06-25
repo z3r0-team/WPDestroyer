@@ -21,26 +21,31 @@ The tool is built for efficiency, utilizing Goroutines for high-speed, parallel 
 - 🚀 First-Time Setup: If no .env file is found, the script initiates an interactive setup to securely create one for your credentials, making it easy to get started
 
 
-## Usage/Examples
-For Linux :
+## Installation, Usage/Examples
+Installation :
+```
+git clone https://github.com/z3r0-team/WPDestroyer
+cd WPDestroyer
+```
+ - For Linux :
 
 ```
 ./destroy
 ./destroy <sites_file> <paths_file> [worker_count]
 ```
-For Windows :
+- For Windows :
 ```
 destroy.exe
 destroy.exe <sites_file> <paths_file> [worker_count]
 ```
 
-## Example for <sites_file>
+- Example for <sites_file> :
 ```
 google.com
 facebook.com
 github.com
 ```
-## Example for <paths_file>
+- Example for <paths_file> :
 ```
 /wp/
 /wordpress/
@@ -57,3 +62,6 @@ github.com
 - Indonesian People
 - #CianjurHacktivist!
 
+## ⚠️ Disclaimer
+
+This tool is intended for educational purposes and for penetration testers to use on systems they are authorized to test. The user is fully responsible for their actions and must obey all applicable laws. The developer assumes no liability and is not responsible for any misuse or damage caused by this program.
